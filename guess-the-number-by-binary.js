@@ -35,15 +35,15 @@ var assertEqual = function(expected, result) {
     }
 }
 
-console.log(searchTheNumber(min, primes.length, 37, primes))
+console.log(searchTheNumber(min, primes.length - 1, 37, primes))
 
-console.log(assertEqual(-1, searchTheNumber(min, primes.length, 38, primes)));
-console.log(assertEqual(0, searchTheNumber(min, primes.length, 2, primes)));
-console.log(assertEqual(3, searchTheNumber(min, primes.length, 7, primes)));
-console.log(assertEqual(-1, searchTheNumber(min, primes.length, 45, primes)));
-console.log(assertEqual(-1, searchTheNumber(min, primes.length, 65, primes)));
-console.log(assertEqual(24, searchTheNumber(min, primes.length, 97, primes)));
-console.log(assertEqual(23, searchTheNumber(min, primes.length, 89, primes)));
-console.log(assertEqual(-1, searchTheNumber(min, primes.length, 99, primes)));
+console.log(assertEqual(-1, searchTheNumber(min, primes.length - 1, 38, primes)));
+console.log(assertEqual(0, searchTheNumber(min, primes.length -1, 2, primes)));
+console.log(assertEqual(3, searchTheNumber(min, primes.length - 1, 7, primes)));
+console.log(assertEqual(-1, searchTheNumber(min, primes.length - 1, 45, primes)));
+console.log(assertEqual(-1, searchTheNumber(min, primes.length - 1, 65, primes)));
+console.log(assertEqual(24, searchTheNumber(min, primes.length - 1, 97, primes)));
+console.log(assertEqual(23, searchTheNumber(min, primes.length - 1, 89, primes)));
+console.log(assertEqual(-1, searchTheNumber(min, primes.length - 1, 99, primes)));
 
 
